@@ -1,0 +1,76 @@
+.ball {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 64px;
+  height: 64px;
+  background: #578;
+  border-radius: 50%;
+  border: solid #aaa 1px;
+  opacity: 0.6;
+}
+.glare {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: rgb(255,255,255, 0.2);
+  left: 12%;
+  top: 12%;
+}
+.glare2 {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: rgb(255,255,255, 0.1);;
+  left: 15%;
+  top: 15%;
+}
+
+.gnd {
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  background: linear-gradient(rgba(0,0,0,0) 5%, red 45%, yellow);
+  opacity: 0.5;
+}
+
+.border {
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  background: linear-gradient(rgba(0,0,0,0), blue, white, #22f, rgba(0,0,0,0));
+  opacity: 1;
+}
+
+body {
+  background: #224;
+  position: fixed;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.fireEffect {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: gray;
+  opacity: 0.3;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: yellow;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background: rgba(0,0,0,0.25);
+
+}
